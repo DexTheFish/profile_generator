@@ -22,11 +22,10 @@ rl.question('What\'s your name ? Nicknames are also acceptable ', (name) => {
               profile.power = power;
               console.log(`${profile.name} enjoys ${profile.hobby} while listening to ${profile.song}. They love to eat ${food} for ${meal}. ${name} is a huge fan of ${sport}. Their secret superpower is ${power}!`);
               rl.close()
-            }); //7
-          }); //6
-        }); //5
-      }); //4
-    }); //3
-  }); //2
-}); //1
-
+            });
+          });
+        });
+      });
+    });
+  });
+});
